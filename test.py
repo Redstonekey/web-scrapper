@@ -4,6 +4,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 import os
 
+chromedriver_path = '/home/bennet/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver' 
 # Initialisiere den Webdriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
